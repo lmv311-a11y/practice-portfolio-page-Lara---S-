@@ -24,7 +24,7 @@ header p {
 
 body{
     background: #dca77270;
-    background-image: url('pictures/8HTCW.jpg');
+    background-image: url(pictures/8HTCW.jpg);
     
     
     background-repeat: no-repeat;
@@ -51,4 +51,8 @@ table td {
   border: 2px solid #f5f2f1;   
   padding: 12px;               
   text-align: left; 
+}
+
+.ingredients-lists{
+    margin-bottom: 80px;
 }
