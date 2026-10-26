@@ -1,107 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Website</title>
-    <link rel = "stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 
-<body>
-   
+
+
     <header>
+        
         <h1>Gallery of Sweets</h1>
         <p> Baking with no stress, just treat yourself!</p>
+        
+
     </header>
 
-    <section class ="about">
+    <body>
+
+    <section class="about">
+        <img src="pictures/Heart.jpg" alt="Heart" class="picture-frame">
         <h2>Little about me</h2>
-        <p>Welcome to my baking journey! As a lifelong amateur baker, my passion started in childhood when my mother taught me everything she knew. 
-            Today, I am thrilled to share that love of baking with you. I invite you to 
-            join me on this wonderful adventure, please explore the options below to get started!</p>
-    
+        <p>Welcome to my baking journey! As a lifelong amateur baker, my passion started in childhood, watching my mother bake delicious homemade treats. 
+            Almost every Saturday morning, I was woken up by the sweet scent of chocolate drifting through the entire house. 
+            Eventually, I began assisting her, making everything from apple tarts to chocolate cakes. She taught me everything she knew. 
+            From there, I grew a desire to explore further and challenge myself with more sophisticated desserts. 
+            For me, baking is therapeutic and has taught me many life lessons. It has trained me to look at the details, practice patience, 
+            and never give up at the first failure. Today, I am thrilled to share my love of baking with you. I invite you to join me on 
+            this wonderful adventure—please explore the options below to get started!</p>
+
     </section>
     <section>
-        <h2>Baking classes options</h2>
+        <h2 style="margin-left: 80px; margin-bottom: 10px;">Baking class options: </h2>
         <table border="2">
             <tr>
                 <th>Level 1 : Beginner</th>
-       		    <td>Preparing cooking dough</td>
-            </tr>  
-        
+                <td>Preparing cooking dough</td>
+            </tr>
+
             <tr>
                 <th>Leve2 : intermediate</th>
-         	    <td>Caramel preparation</td>
+                <td>Caramel preparation</td>
             </tr>
-            
+
             <tr>
-                <th>Level 3: Advance</th>
+                <th>Level 3: Advanced</th>
                 <td>Birthday Cake</td>
             </tr>
-   
-         </table>
-     </section>
 
-     <section class = "ingredients-lists">
-        <h2>Ingredients &amp; Ustensils </h2>
-        <h3>Level 1: cooking dough</h3>
-        <h4>Ingredients</h4>
-        <ul>
-            <li>Flour</li>
-            <li>Sugar</li>
-            <li>Dark chocolate</li>
-            <li>Vanilla extract</li>
+        </table>
+    </section>
 
-        </ul>
-        <h4>Ustensils</h4>
-        <ul>
-            <li>Whisk</li>
-            <li>Large Bowl</li>
-        </ul>
+    <section >
 
-        <h3>level 2 :Caramel</h3>
-        <h4>Ingredients</h4>
-        <ul>
-            <li>Sugar</li>
-            <li>Water</li>
-        </ul>
-        <h4>Ustensil</h4>
-        <ul>
-            <li>sauce pan</li>
-            <li>wooden pan</li>
-        </ul>
-     </section>
+        <h2 style="margin-left: 100px; margin-top: 100px;">Ingredients &amp; Ustensils </h2>
+
+        <table class="table2">
+            <tr>
+                <td><img src="pictures/Screenshot_20260406_143345_Snapchat.jpg" alt="Cookies" class="picture-circle"></td>
+                <td><img src="pictures/Untitled.png" alt="Caramel" class="picture-circle"></td>
+                <td><img src="pictures/20260222_133615.jpg" alt="Birthday Cake" class="picture-circle"></td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <h3>Level 1: cooking dough</h3>
+                </td>
+                <td>
+                    <h3>level 2 :Caramel</h3>
+                </td>
+                <td>
+                    <h3>level 3 :Birthday Cake</h3>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <h4>Ingredients:</h4>
+                    <ul>
+                        <li>Flour</li>
+                        <li>Sugar</li>
+                        <li>Dark chocolate</li>
+                        <li>Vanilla extract</li>
+                    </ul>
+                    <h4>Ustensils:</h4>
+                    <ul>
+                        <li>Whisk</li>
+                        <li>Large Bowl</li>
+                    </ul>
+
+                </td>
+
+                <td>
+
+                    <h4>Ingredients:</h4>
+                    <ul>
+                        <li>sugar</li>
+                        <li>water</li>
+                    </ul>
+                    <h4>Ustensil:</h4>
+                    <ul>
+                        <li>sauce pan</li>
+                        <li>wooden spoon</li>
+                    </ul>
+                </td>
+
+                <td>
+
+                    <h4>Ingredients:</h4>
+                    <ul>
+                        <li>sugar</li>
+                        <li>water</li>
+                        <li>Flour</li>
+                        <li>baking Soda</li>
+                        <li>butter Cream</li>
+                        <li>chocolate</li>
+                        <li>eggs</li>
+                    </ul>
+                    <h4>Ustensil:</h4>
+                    <ul>
+                        <li>sauce pan</li>
+                        <li>wooden spoon</li>
+                        <li>Whisk</li>
+                        <li>large bowl</li>
+                    </ul>
+                </td>
+            </tr>
+
+        </table>
+
+
+
+    </section>
 
     <section>
         <form action="/submit" method="POST">
             <h2>Join the baking list</h2>
-    
+
             <div class="form-group">
-    
+
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name">
-    
+
                 <label for="email">Email:</label>
-                <input type="email" id="email name=" email">
-    
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" placeholder="Please enter message">
-                         </textarea>
-    
+                <input type="email" id="email" name="email">
+                
+                <button type="submit">Subscribe</button>
             </div>
-        </section>
-        <button type="submit">Submit</button>
+    
+    
     </form>
-       
+    </section>
+
     <footer>
-    
+
         <p>&copy; 2026 Bake and Sweet Website </p>
-    
+
     </footer>
-    
+
 </body>
 
-    
+
 </html>

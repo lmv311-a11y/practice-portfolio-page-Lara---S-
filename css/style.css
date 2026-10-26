@@ -1,0 +1,117 @@
+
+body{
+    background: #dca77270;
+     color: #c76142fb;
+}
+
+/*1. Styling the header */
+header h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 5rem; 
+    margin: 20px; 
+    text-align: left;
+    margin-bottom: 0px;
+     
+   
+}
+
+header p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.6rem; 
+    font-style: italic;
+    margin: 20px ;
+    text-align: left;
+    margin-top: 0px ;
+    margin-bottom: 100px;
+}
+
+/* 2. The section "about me" */
+.picture-frame{
+    float: left;
+    clip-path: circle(40%);
+    shape-outside: circle(45%);
+    width: 300px; 
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.about  {
+    font-family:  'Times New Roman', Times, serif;
+    
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: auto;
+    color: rgba(212, 80, 23, 0.921);
+    max-width: 1000px;
+    border: 2px solid rgba(101, 95, 184, 0.236);
+    background-color: rgba(214, 187, 117, 0.342);
+    padding: 20px;
+    
+}
+
+.about h2 { font-size: 2rem; margin: 0 0 10px 0; }
+.about p { font-size: 1.2rem; line-height: 1.6; margin: 0; }
+
+
+/* 3. Picture in Circle format */
+.picture-circle{
+     border-radius: 50%;
+     width: 200px;
+     height: 200px;
+     object-fit:cover;
+     }
+
+/* 4. Tables Styling */
+table {
+  background-color: rgba(233, 189, 145, 0.8);
+  margin-top: 100px;
+  font-family: "Times New Roman", Times,sans-serif;
+  width: 35%;                 
+  border-collapse: collapse;   
+  margin-left: 90px;
+  margin-top: 0em;
+}
+    
+table th, 
+table td {
+  border: 2px solid #f5f2f1;   
+  padding: 12px;               
+  text-align: left; 
+}
+
+
+
+.table2{
+background-color: transparent;    
+width: 50em;
+margin-left:90px;
+border:none; 
+margin-top: 1em;
+margin-bottom: 10em;
+
+
+}
+
+.table2 td{
+border : 2px;
+font-family: "Times New Roman", Times,sans-serif;
+vertical-align: top;
+padding: 0px;
+
+}
+
+.table2 td h4{
+    margin-bottom: 2px;
+    margin-top: 15px;
+
+}
+
+.table2 td ul{
+    margin-top: 0px;
+    padding-left: center;
+}
+
+
